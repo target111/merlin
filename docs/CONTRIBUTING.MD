@@ -8,7 +8,7 @@ outlines some basic guidelines for submitting your contributions. This
 Go is slightly unique due to the way it imports packages. Simply forking
  Merlin and getting to work will result in problems due to imports. The
  proper way to work with a Go repository after forking it is:
-1. Grab Merlin into your GOPATH `go get github.com/Ne0nd0g/merlin`
+1. Grab Merlin into your GOPATH `go get github.com/target111/merlin`
 2. Rename the current origin remote to upstream
 `git remote rename origin upstream`
 3. Add your fork as origin

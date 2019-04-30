@@ -34,7 +34,7 @@ import (
 	"time"
 
 	// Merlin
-	"github.com/Ne0nd0g/merlin/pkg/messages"
+	"github.com/target111/merlin/pkg/messages"
 )
 
 func (ts *TestServer) handler(w http.ResponseWriter, r *http.Request) {

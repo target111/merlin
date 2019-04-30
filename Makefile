@@ -9,7 +9,7 @@ PASSWORD=merlin
 BUILD=$(shell git rev-parse HEAD)
 DIR=data/temp/v${VERSION}/${BUILD}
 BIN=data/bin/
-XBUILD=-X main.build=${BUILD} -X github.com/Ne0nd0g/merlin/pkg/agent.build=${BUILD}
+XBUILD=-X main.build=${BUILD} -X github.com/target111/merlin/pkg/agent.build=${BUILD}
 URL ?= https://127.0.0.1:443
 XURL=-X main.url=${URL}
 LDFLAGS=-ldflags "-s -w ${XBUILD} ${XURL}"

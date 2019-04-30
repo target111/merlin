@@ -41,11 +41,11 @@ import (
 	"github.com/lucas-clemente/quic-go/h2quic"
 
 	// Merlin
-	"github.com/Ne0nd0g/merlin/pkg/agents"
-	"github.com/Ne0nd0g/merlin/pkg/core"
-	"github.com/Ne0nd0g/merlin/pkg/logging"
-	"github.com/Ne0nd0g/merlin/pkg/messages"
-	"github.com/Ne0nd0g/merlin/pkg/util"
+	"github.com/target111/merlin/pkg/agents"
+	"github.com/target111/merlin/pkg/core"
+	"github.com/target111/merlin/pkg/logging"
+	"github.com/target111/merlin/pkg/messages"
+	"github.com/target111/merlin/pkg/util"
 )
 
 // Server is a structure for creating and instantiating new server objects
@@ -79,7 +79,7 @@ func New(iface string, port int, protocol string, key string, certificate string
 		t := "Creating in-memory x.509 certificate used for this session only."
 		logging.Server(t)
 		message("note", t)
-		message("info", "Additional details: https://github.com/Ne0nd0g/merlin/wiki/TLS-Certificates")
+		message("info", "Additional details: https://github.com/target111/merlin/wiki/TLS-Certificates")
 		cerp, err := util.GenerateTLSCert(nil, nil, nil, nil, nil, nil, true) //ec certs not supported (yet) :(
 		if err != nil {
 			m := fmt.Sprintf("There was an error generating the SSL/TLS certificate:\r\n%s", err.Error())
@@ -142,7 +142,7 @@ func New(iface string, port int, protocol string, key string, certificate string
 	// Check to see if the Public Key SHA1 finger print matches the certificate distributed with Merlin for testing
 	if merlinCRT == sha256Fingerprint {
 		message("warn", "Insecure publicly distributed Merlin x.509 testing certificate in use")
-		message("info", "Additional details: https://github.com/Ne0nd0g/merlin/wiki/TLS-Certificates")
+		message("info", "Additional details: https://github.com/target111/merlin/wiki/TLS-Certificates")
 	}
 
 	// Log certificate information

@@ -1,8 +1,8 @@
 [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/Ne0nd0g/merlin?branch=dev&svg=true)](https://ci.appveyor.com/project/Ne0nd0g/merlin)
 [![GoReportCard](https://goreportcard.com/badge/github.com/ne0nd0g/merlin)](https://goreportcard.com/badge/github.com/ne0nd0g/merlin)
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![Release](https://img.shields.io/github/release/Ne0nd0g/merlin.svg)](https://github.com/Ne0nd0g/merlin/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/Ne0nd0g/merlin/total.svg)](https://github.com/Ne0nd0g/merlin/releases)
+[![Release](https://img.shields.io/github/release/Ne0nd0g/merlin.svg)](https://github.com/target111/merlin/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/Ne0nd0g/merlin/total.svg)](https://github.com/target111/merlin/releases)
 [![Twitter Follow](https://img.shields.io/twitter/follow/merlin_c2.svg?style=social&label=Follow)](https://twitter.com/merlin_c2)
 
 # Merlin (BETA)
@@ -21,25 +21,25 @@ https://medium.com/@Ne0nd0g/introducing-merlin-645da3c635a
 [![asciicast](https://asciinema.org/a/166722.png)](https://asciinema.org/a/166722?speed=2)
 
 ## Quick Start
-1. Download the latest compiled version of Merlin Server from the [releases](https://github.com/Ne0nd0g/merlin/releases) section
+1. Download the latest compiled version of Merlin Server from the [releases](https://github.com/target111/merlin/releases) section
 2. Extract the files with 7zip using the `x` function. **The password is: `merlin`**
 3. Start Merlin
-4. Deploy an agent. See [Agent Execution Quick Start Guide](https://github.com/Ne0nd0g/merlin/wiki/Agent-Execution-Quick-Start-Guide) for examples
+4. Deploy an agent. See [Agent Execution Quick Start Guide](https://github.com/target111/merlin/wiki/Agent-Execution-Quick-Start-Guide) for examples
 5. Pwn, Pivot, Profit
 
 ```
 mkdir /opt/merlin;cd /opt/merlin
-wget https://github.com/Ne0nd0g/merlin/releases/download/v0.1.4/merlinServer-Linux-x64-v0.1.4.7z
+wget https://github.com/target111/merlin/releases/download/v0.1.4/merlinServer-Linux-x64-v0.1.4.7z
 7z x merlinServer-Linux-x64-v0.1.4.7z
 sudo ./merlinServer-Linux-x64
 ```
 
 ## Misc.
 * The latest development build of Merlin can be downloaded from [AppVeyor](https://ci.appveyor.com/project/Ne0nd0g/merlin-i9c58/build/artifacts)
-* To compile Merlin from source, view the [Building or Running from Source](https://github.com/Ne0nd0g/merlin/wiki/Building-or-Running-from-Source) wiki page
-* For a full list of available commands view the [Main Menu](https://github.com/Ne0nd0g/merlin/wiki/Merlin-Server-Main-Menu), [Agent Menu](https://github.com/Ne0nd0g/merlin/wiki/Merlin-Server-Agent-Menu), and [Module Menu](https://github.com/Ne0nd0g/merlin/wiki/Merlin-Server-Module-Menu) wiki pages
-* View the [FAQ](https://github.com/Ne0nd0g/merlin/wiki/FAQ) wiki page for Frequently Asked Questions
-* View the [Blog Posts](https://github.com/Ne0nd0g/merlin/wiki/Blog-Posts) page for additional information
+* To compile Merlin from source, view the [Building or Running from Source](https://github.com/target111/merlin/wiki/Building-or-Running-from-Source) wiki page
+* For a full list of available commands view the [Main Menu](https://github.com/target111/merlin/wiki/Merlin-Server-Main-Menu), [Agent Menu](https://github.com/target111/merlin/wiki/Merlin-Server-Agent-Menu), and [Module Menu](https://github.com/target111/merlin/wiki/Merlin-Server-Module-Menu) wiki pages
+* View the [FAQ](https://github.com/target111/merlin/wiki/FAQ) wiki page for Frequently Asked Questions
+* View the [Blog Posts](https://github.com/target111/merlin/wiki/Blog-Posts) page for additional information
 
 ## Merlin Server Command Line Flags
 `./merlinServer-Linux-x64 -h`

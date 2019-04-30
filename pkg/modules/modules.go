@@ -22,7 +22,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/Ne0nd0g/merlin/pkg/modules/minidump"
+	"github.com/target111/merlin/pkg/modules/minidump"
 	"io/ioutil"
 	"os"
 	"path"
@@ -36,10 +36,10 @@ import (
 	"github.com/satori/go.uuid"
 
 	// Merlin
-	"github.com/Ne0nd0g/merlin/pkg/agents"
-	"github.com/Ne0nd0g/merlin/pkg/core"
-	"github.com/Ne0nd0g/merlin/pkg/modules/shellcode"
-	"github.com/Ne0nd0g/merlin/pkg/modules/srdi"
+	"github.com/target111/merlin/pkg/agents"
+	"github.com/target111/merlin/pkg/core"
+	"github.com/target111/merlin/pkg/modules/shellcode"
+	"github.com/target111/merlin/pkg/modules/srdi"
 )
 
 // Module is a structure containing the base information or template for modules

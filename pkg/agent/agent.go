@@ -46,9 +46,9 @@ import (
 	"golang.org/x/net/http2"
 
 	// Merlin
-	"github.com/Ne0nd0g/merlin/pkg"
-	"github.com/Ne0nd0g/merlin/pkg/core"
-	"github.com/Ne0nd0g/merlin/pkg/messages"
+	"github.com/target111/merlin/pkg"
+	"github.com/target111/merlin/pkg/core"
+	"github.com/target111/merlin/pkg/messages"
 )
 
 // GLOBAL VARIABLES
@@ -1174,7 +1174,7 @@ func getClient(protocol string) (*http.Client, error) {
 	// Setup TLS configuration
 	TLSConfig := &tls.Config{
 		MinVersion:         tls.VersionTLS12,
-		InsecureSkipVerify: true, // #nosec G402 - see https://github.com/Ne0nd0g/merlin/issues/59 TODO fix this
+		InsecureSkipVerify: true, // #nosec G402 - see https://github.com/target111/merlin/issues/59 TODO fix this
 		CipherSuites: []uint16{
 			tls.TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,
 			tls.TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA,

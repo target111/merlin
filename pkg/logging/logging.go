@@ -28,7 +28,7 @@ import (
 	"github.com/fatih/color"
 
 	// Merlin
-	"github.com/Ne0nd0g/merlin/pkg/core"
+	"github.com/target111/merlin/pkg/core"
 )
 
 var serverLog *os.File

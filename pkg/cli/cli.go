@@ -36,13 +36,13 @@ import (
 	"github.com/satori/go.uuid"
 
 	// Merlin
-	"github.com/Ne0nd0g/merlin/pkg"
-	"github.com/Ne0nd0g/merlin/pkg/agents"
-	"github.com/Ne0nd0g/merlin/pkg/banner"
-	"github.com/Ne0nd0g/merlin/pkg/core"
-	"github.com/Ne0nd0g/merlin/pkg/logging"
-	"github.com/Ne0nd0g/merlin/pkg/modules"
-	"github.com/Ne0nd0g/merlin/pkg/modules/shellcode"
+	"github.com/target111/merlin/pkg"
+	"github.com/target111/merlin/pkg/agents"
+	"github.com/target111/merlin/pkg/banner"
+	"github.com/target111/merlin/pkg/core"
+	"github.com/target111/merlin/pkg/logging"
+	"github.com/target111/merlin/pkg/modules"
+	"github.com/target111/merlin/pkg/modules/shellcode"
 )
 
 // Global Variables
@@ -746,7 +746,7 @@ func menuHelpMain() {
 	fmt.Println()
 	table.Render()
 	fmt.Println()
-	message("info", "Visit the wiki for additional information https://github.com/Ne0nd0g/merlin/wiki/Merlin-Server-Main-Menu")
+	message("info", "Visit the wiki for additional information https://github.com/target111/merlin/wiki/Merlin-Server-Main-Menu")
 }
 
 // The help menu while in the modules menu
@@ -771,7 +771,7 @@ func menuHelpModule() {
 	fmt.Println()
 	table.Render()
 	fmt.Println()
-	message("info", "Visit the wiki for additional information https://github.com/Ne0nd0g/merlin/wiki/Merlin-Server-Module-Menu")
+	message("info", "Visit the wiki for additional information https://github.com/target111/merlin/wiki/Merlin-Server-Module-Menu")
 }
 
 // The help menu while in the agent menu
@@ -804,7 +804,7 @@ func menuHelpAgent() {
 	table.Render()
 	fmt.Println()
 	message("info", "Visit the wiki for additional information "+
-		"https://github.com/Ne0nd0g/merlin/wiki/Merlin-Server-Agent-Menu")
+		"https://github.com/target111/merlin/wiki/Merlin-Server-Agent-Menu")
 }
 
 func filterInput(r rune) (rune, bool) {

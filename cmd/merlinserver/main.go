@@ -27,12 +27,12 @@ import (
 	"github.com/fatih/color"
 
 	// Merlin
-	"github.com/Ne0nd0g/merlin/pkg"
-	"github.com/Ne0nd0g/merlin/pkg/banner"
-	"github.com/Ne0nd0g/merlin/pkg/cli"
-	"github.com/Ne0nd0g/merlin/pkg/core"
-	"github.com/Ne0nd0g/merlin/pkg/logging"
-	"github.com/Ne0nd0g/merlin/pkg/servers/http2"
+	"github.com/target111/merlin/pkg"
+	"github.com/target111/merlin/pkg/banner"
+	"github.com/target111/merlin/pkg/cli"
+	"github.com/target111/merlin/pkg/core"
+	"github.com/target111/merlin/pkg/logging"
+	"github.com/target111/merlin/pkg/servers/http2"
 )
 
 // Global Variables

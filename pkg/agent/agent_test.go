@@ -26,7 +26,7 @@ import (
 	"github.com/satori/go.uuid"
 
 	// Merlin
-	"github.com/Ne0nd0g/merlin/test/testServer"
+	"github.com/target111/merlin/test/testServer"
 )
 
 func getTestAgent(proto string) Agent {
