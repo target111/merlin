@@ -1,5 +1,6 @@
 {
     "base": {
+      "type": "standard",
       "name": "Prank",
       "author": ["Dan Borges (@ahhh)"],
       "credits": ["Sebastian Paaske"],
